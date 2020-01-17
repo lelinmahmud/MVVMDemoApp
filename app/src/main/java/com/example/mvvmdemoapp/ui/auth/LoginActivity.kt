@@ -23,7 +23,6 @@ class LoginActivity : AppCompatActivity(),AuthListener {
 
     override fun onStarted() {
         toast("Login Started")
-        println("hello")
     }
 
     override fun onSuccess(loginResponse: LiveData<String>) {
